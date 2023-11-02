@@ -1,0 +1,27 @@
+$primary-color: rgb(32, 179, 224);
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+main {
+    .left {
+        width: 25%;
+        flex: 1;
+        background-color: lightblue;
+    }
+    .middle {
+        width: 50%;
+        background-color: lightcoral;
+    }
+    .right {
+        width: 25%;
+        background-color: lightgreen;
+    }
+}
